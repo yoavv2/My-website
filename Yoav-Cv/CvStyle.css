@@ -1,0 +1,165 @@
+	html
+	{
+		height: 120%;
+	}
+	body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body,
+
+button {
+  background: #fff;
+  color: #000;
+  font-family: "Roboto Mono", monospace;
+}
+.container {
+  margin: 50px auto;
+    position: inherit;
+  padding: 5px;
+  max-width: 650px;
+    z-index: 0;
+    
+}
+
+.container-left{
+/*   margin: 0em 5em 5em 0em ;*/
+    position: absolute;
+
+  padding: 50px;
+  max-width: 250px;
+    z-index: 0;
+}
+
+
+/*
+.Skils{
+    margin: 0em 0em 0em 0em ;
+}
+*/
+
+
+
+.header-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-frame {
+  max-width: 350px;
+}
+h1 {
+  font-weight: 400;
+  margin: 0;
+}
+h2 {
+  color: #96979c;
+  font-weight: 300;
+  margin: 0 0 0.5em 0;
+}
+a {
+  color: #96979c;
+}
+a:hover {
+  font-weight: bold;
+}
+
+.toggler {
+  margin: 5px 0em 0em 7em;
+}
+.toggler .show {
+  border-color: #eb4888;
+  color: #eb4888;
+}
+
+	.menu
+	{
+	
+		height: 100%;
+		width: 15%;
+		position: fixed;
+		left: 0px;
+		top: 60px;
+		padding: 10px 0px 0px;
+		text-align: center;
+		z-index: 5;
+	}
+	
+
+	.footer
+	{
+		
+		position: fixed;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+		z-index: 10;
+	}
+
+.myButton {
+	 position:fixed;
+    right:10%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #96979c;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #96979c;
+  font-size: 1rem;
+  overflow: auto;
+  transition: 0.4s ease all;
+   
+   
+}
+
+
+  .dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.img-frame {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  
+  border-radius: 50%;
+  overflow: hidden;
+    margin: 0 0 10px 20em;
+    
+}
+.img-frame img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  height: 100%;
+    
+}
+
+.content {
+   
+   margin: 5px 0em 0em 7em;
+}
+.content #A{
+   position: absolute;
+    margin: 0px 0em 0em 0em;
+}
+.content #B{
+   position: absolute;
+    margin: 0px 0em 05em 7em;
+}
+.content #C{
+   position: absolute;
+    margin: 0px 0em 0em 13em;
+}
+.content #D{
+   position: absolute;
+    margin: 0px 0em 0em 18em;
+}
+
+
